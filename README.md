@@ -11,19 +11,19 @@ the segment durations labeled by the festival voice.
 Project Structure
 ----
 
-| Files                |
-| -------------------- | -----------------
-| `data/              ` | working files, intermediate outputs
-| `data/cmu_indic_*/  ` | individual festival voice folders
-| `data/segments/     ` | segment duration output
-| `data/segments/all/ ` | primary working space over all utterances
-| `data/segments/all/vowel_segments/` | output of isolated vowel instances
-| `log/*              ` | logging output, final formant data
-| `praat/*            ` | Praat scripts used for Praat-dependent operations
-| `do_indic.sh        ` | download and build Indic voices, create data directory structure, dump segment information to dur files
-| `do_text_grid_segments.py` | add phoneme segments to TextGrid's according to segment durations in corresponding dur file
-| `do_vowel_inv.py    ` | generate list of all vowels appearing in segment duration output
-| `README.md          ` | this file :)
+| Files                 |                   |
+| --------------------- | ----------------- |
+| `data/              ` | working files, intermediate outputs |
+| `data/cmu_indic_*/  ` | individual festival voice folders |
+| `data/segments/     ` | segment duration output |
+| `data/segments/all/ ` | primary working space over all utterances |
+| `data/segments/all/vowel_segments/` | output of isolated vowel instances |
+| `log/*              ` | logging output, final formant data |
+| `praat/*            ` | Praat scripts used for Praat-dependent operations |
+| `do_indic.sh        ` | download and build Indic voices, create data directory structure, dump segment information to dur files |
+| `do_text_grid_segments.py` | add phoneme segments to TextGrid's according to segment durations in corresponding dur file |
+| `do_vowel_inv.py    ` | generate list of all vowels appearing in segment duration output |
+| `README.md          ` | this file :) |
 
 Running
 ----
