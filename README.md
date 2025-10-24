@@ -1,3 +1,10 @@
+# Festival Indic Voices to Praat Pipeline
+
+Creating a cross-linguistic vowel formant dataset from
+[Festival](http://festvox.org/) Indic voices using Praat.
+
+<p align="center"><img src="data/formant_pipeline_automation_demo.gif" alt="Formant Pipeline Automation Demo"></p>
+
 Overview
 ----
 
